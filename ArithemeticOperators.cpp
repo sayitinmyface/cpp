@@ -18,7 +18,7 @@ int main(){
     cout << "*= Operator,value of result is :" << result << endl;
     result /=  first;
     cout << "/= Operator,value of result is :" << result << endl;
-    
+    cout << "=====================================================" << endl;
     first %=  result;
     cout << "%= Operator,value of result is :" << first << endl;
     return 0;
