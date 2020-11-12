@@ -18,8 +18,8 @@ int main()
     // 
     result =  sum(first,second);
     // 
-    cout << "total value is : " << result << endl;
-    cout << "total value is : " << sum(second,third) << endl;
+    cout << "first + second is : " << result << endl;
+    cout << "second + third is : " << sum(second,third) << endl;
     // 
     return 0;
 }
