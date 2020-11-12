@@ -1,7 +1,9 @@
 #include <iostream>
 #include "under/FunctionSum.cpp"
-extern int sum(int,int);
+// 
 using namespace std;
+// 
+extern int sum(int,int);
 // int sum(int,int);
 int main()
 {
