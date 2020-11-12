@@ -5,17 +5,18 @@ int main()
 {
     int first_num, second_num, result;
 
-    cout << "first num : ";
+    cout << "first num : " << "\t";
     cin >> first_num;
-    cout << "second_num : ";
+    cout << "second_num : "<< "\t";
     cin >> second_num;
     result = max(first_num, second_num);
 
-    cout << "return max value is  : " << result << endl;
-    cout << "call only function : " << max(second_num, first_num) << endl;
+    cout << "return max value is  : "<< "\t" << result << endl;
+    cout << "call only function : " << "\t" << max(second_num, first_num) << endl;
 
     return 0;
 }
+
 int max(int first_num, int second_num)
 {
     int result;
