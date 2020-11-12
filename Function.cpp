@@ -19,4 +19,4 @@ int main(){
     cout << "return value :" << i << endl;
     cout << "Scope resolution operator : " << ::i << endl;
     return 0;
-}
+}               
