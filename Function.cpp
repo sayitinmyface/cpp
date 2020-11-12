@@ -1,22 +1,11 @@
 #include <iostream>
 #include "under/FunctionOther.cpp"
 using namespace std;
-extern int funcOutside();
+extern int funcOutside(); //
 int i = 5;
-
-// int funcInside();
-int funcInside(){
-    cout << "int funcInside()"<< endl;
-    return 8;
-}
-// int main(){
-//     int num = funcInside();
-//     cout << "return value :" << num << endl;
-//     return 0;
-// }
 int main(){
     int i = funcOutside();
     cout << "return value :" << i << endl;
-    cout << "Scope resolution operator : " << ::i << endl;
+    cout << "Scope resolution operator : " << ::i << endl;// [영역]::[func or 변수] = 내 영역 밖에 있는 것을 가져온다.
     return 0;
 }               
