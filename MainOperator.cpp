@@ -1,11 +1,9 @@
-#include "under/NameSpaces.hpp"
-// 
-using namespace first_space;
+#include "under/ArrayNumber.cpp"
+//  
+extern void arrayNumber();
 // 
 int main()
 {
-    func();
-    second_space::func();
-    funcOutside();
+    arrayNumber();
     return 0;
 }
