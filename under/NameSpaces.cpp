@@ -12,3 +12,8 @@ namespace second_space{
         cout << "inside second space" << endl;
     }
 }
+
+void funcOutside()
+{
+    cout << "funcOutside" << endl;
+}
