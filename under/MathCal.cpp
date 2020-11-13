@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-
+// 
 namespace math_space{
     int result;
     int add(int x,int y){
@@ -27,7 +27,7 @@ namespace math_space{
         return result;
     }
 }
-
+// 
 namespace cout_space{
     char funcQuestion(){
         char answer;
@@ -40,8 +40,7 @@ namespace cout_space{
         cout << "end the calculation!" << endl;
     }
 }
-
-
+// 
 void calculate(){
     int x, y ,result;
     char answer;
