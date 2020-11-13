@@ -36,9 +36,9 @@ namespace cout_space{
         return answer;
     }
     // 
-    void funcCoutEnd(){
-        cout << "end the calculation!" << endl;
-    }
+    // void funcCoutEnd(){
+    //     cout << "end the calculation!" << endl;
+    // }
 }
 // 
 void calculate(){
@@ -63,7 +63,7 @@ void calculate(){
         // 
         if (answer=='N')
         {
-            cout_space::funcCoutEnd();
+            cout << "end the calculation!" << endl;
             break;
         }
     }
