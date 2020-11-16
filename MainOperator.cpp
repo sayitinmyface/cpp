@@ -1,9 +1,9 @@
-#include "under/ArrayChar.cpp"
+#include "under/StringClass.cpp"
 //  
-extern void arrayChar();
+extern void stringClass();
 // 
 int main()
 {
-    arrayChar();
+    stringClass();
     return 0;
 }
