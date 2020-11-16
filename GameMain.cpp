@@ -21,6 +21,7 @@ void funcExpress()
         cout << "main character "  << "display :"  <<  Main.display << endl;
         for (int i = 0; i < 10; i++)
         {
+            cout << endl << endl;
             cout << "enemy " << i << "위치 x :" <<  Enemy.Enemies[i].row << endl;
             cout << "enemy " << i << "위치 y :" <<  Enemy.Enemies[i].col << endl;
             cout << "enemy " << i << "survival :"  <<  Enemy.Enemies[i].survival << endl;
