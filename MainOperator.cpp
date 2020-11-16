@@ -1,15 +1,18 @@
+#include "under/ReferenceVarialbe.cpp"
 #include <cstring>
-#include "under/DataStructures.cpp"
 //  
+extern void referenceVar();
 // extern void stringClass();
 // 
 int main()
 {
-    struct Books BestSell;
-    BestSell.category = categories::COMPUTERS;
-    strcpy(BestSell.BookList[1].title,"tell me now");
-    strcpy(BestSell.BookList[1].author,"yohan");
-    BestSell.print_booklist();
+    referenceVar();
+    
+    // struct Books BestSell;
+    // BestSell.category = categories::COMPUTERS;
+    // strcpy(BestSell.BookList[1].title,"tell me now");
+    // strcpy(BestSell.BookList[1].author,"yohan");
+    // BestSell.print_booklist();
 
     // struct Book Book1;
     // strcpy(Book1.title,"learn c++ programming");
