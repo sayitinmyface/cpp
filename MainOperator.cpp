@@ -1,9 +1,9 @@
-#include "under/ArrayNumber.cpp"
+#include "under/ArrayChar.cpp"
 //  
-extern void arrayNumber();
+extern void arrayChar();
 // 
 int main()
 {
-    arrayNumber();
+    arrayChar();
     return 0;
 }
