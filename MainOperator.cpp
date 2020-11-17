@@ -1,17 +1,32 @@
-#include "under/DataStructures2.cpp"
+#include "under/RandomNumbers.cpp"
 #include <cstring>
 //  
-extern void printBook(struct Book);
-// extern void referenceVar();
+// extern void printBook(struct Book);
+extern void randomNumbers();
 // extern void stringClass();
 // 
 int main()
 {
-    struct Book Book;
-    Book.subject = "c++ programming";
-    strcpy(Book.author,"chand miyan");
-    printBook(&Book);
-    return 0;
+    char grade = 'a';
+    switch (grade)
+    {   
+        case 'b':
+        case 'c':
+            cout << "wwwww" << endl;
+            break;
+        
+        default:
+            cout << "end" << endl;
+            // break;
+    }
+
+
+    // randomNumbers();
+    // struct Book Book;
+    // Book.subject = "c++ programming";
+    // strcpy(Book.author,"chand miyan");
+    // printBook(&Book);
+    // return 0;
  
     
     
