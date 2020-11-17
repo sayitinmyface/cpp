@@ -1,12 +1,13 @@
-#include "under/ReferenceVarialbe.cpp"
+#include "under/MultiDimensionalArray2.cpp"
 #include <cstring>
 //  
-extern void referenceVar();
+extern void multiArray();
+// extern void referenceVar();
 // extern void stringClass();
 // 
 int main()
 {
-    referenceVar();
+    multiArray();
     
     // struct Books BestSell;
     // BestSell.category = categories::COMPUTERS;
