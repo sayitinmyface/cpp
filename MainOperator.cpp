@@ -1,13 +1,19 @@
-#include "under/MultiDimensionalArray2.cpp"
+#include "under/DataStructures2.cpp"
 #include <cstring>
 //  
-extern void multiArray();
+extern void printBook(struct Book);
 // extern void referenceVar();
 // extern void stringClass();
 // 
 int main()
 {
-    multiArray();
+    struct Book Book;
+    Book.subject = "c++ programming";
+    strcpy(Book.author,"chand miyan");
+    printBook(&Book);
+    return 0;
+ 
+    
     
     // struct Books BestSell;
     // BestSell.category = categories::COMPUTERS;
