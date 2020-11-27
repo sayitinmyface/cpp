@@ -2,7 +2,6 @@
 using namespace std;
 
 template <typename T>
-
 const T Max(const T first,const T second)
 {
     return first<second? second:first;
